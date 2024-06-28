@@ -1,0 +1,19 @@
+
+
+.p_colonne_droite{
+    background-color: rgb(138, 198, 226)
+}
+
+#sectionTitreAuto {
+    text-align: center;
+}
+
+#sectionTitreExpe {
+    text-align: center;
+}
+
+ul svg , img {
+    height: 30px ;
+    width: 30px ;
+    margin-right: 10px;
+}
