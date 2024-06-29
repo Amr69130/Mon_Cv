@@ -12,8 +12,12 @@
     text-align: center;
 }
 
-ul svg , img {
+ul svg , ul img {
     height: 30px ;
     width: 30px ;
     margin-right: 10px;
+}
+
+body {
+    font-family: "Fira Code" , monospace;
 }
