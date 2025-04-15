@@ -78,7 +78,24 @@
             height: 30px !important;
         }
 
+        /* Personnalisation du bouton sticky */
+        .sticky-button {
+            background-color: #007BFF; /* Bleu */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .sticky-button:hover {
+            background-color: #0056b3;
+        }
+
         @media (max-width: 768px) {
+
             .container {
                 flex-direction: column;
             }
@@ -103,7 +120,7 @@
 
 <!-- Burger Button -->
 <div class="d-md-none text-start p-2">
-    <button class="btn btn-primary" id="burgerBtn">☰ PROFILE</button>
+    <button class="position-fixed top-0 start-0 m-3" id="burgerBtn">☰ PROFILE</button>
 </div>
 
 <!-- Contenu principal -->
@@ -200,7 +217,9 @@
         <!-- Personal Info -->
 
         <div>
+            <a href="index.html" class="sticky-button position-fixed top-0 end-0 m-3">FR</a>
             <h1>
+                <!-- Bouton sticky -->
                 <strong>
                     WEB DEVELOPER
 
