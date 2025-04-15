@@ -80,18 +80,21 @@
 
         /* Personnalisation du bouton sticky */
         .sticky-button {
-            background-color: #007BFF; /* Bleu */
-            color: white;
+            background-color: rgba(202, 236, 244, 0.4); /* Ton bleu clair avec 40% d'opacité */
+            color: #003b4f; /* Texte foncé pour contraster sur ce fond très clair */
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
             font-size: 16px;
             font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4px); /* effet doux en fond */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* ombre subtile */
+            z-index: 1050;
+            transition: background-color 0.3s ease;
         }
 
         .sticky-button:hover {
-            background-color: #0056b3;
+            background-color: rgba(202, 236, 244, 0.7); /* un peu moins transparent au hover */
         }
 
 
