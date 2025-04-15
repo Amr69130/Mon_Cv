@@ -19,7 +19,7 @@
             a{
                 text-decoration: none;
                 color: black;
-                font-style: oblique;
+
             }
             ul {
                 gap: 1rem;
@@ -80,17 +80,18 @@
 
         /* Personnalisation du bouton sticky */
         .sticky-button {
-            background-color: rgba(202, 236, 244, 0.4); /* Ton bleu clair avec 40% d'opacité */
-            color: #003b4f; /* Texte foncé pour contraster sur ce fond très clair */
-            padding: 10px 20px;
+            background-color: rgba(202, 236, 244, 0.6);
+            color: #002d3a;
+            padding: 12px 22px;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
+            border-radius: 8px;
+            font-size: 18px;
             font-weight: bold;
-            backdrop-filter: blur(4px); /* effet doux en fond */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* ombre subtile */
+            backdrop-filter: blur(6px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             z-index: 1050;
-            transition: background-color 0.3s ease;
+            transition: all 0.3s ease;
         }
 
         .sticky-button:hover {
@@ -218,7 +219,10 @@
     <!-- Right Column (70%) -->
     <div class="right-column">
                 <!-- Bouton sticky -->
-        <a href="index.html" class="sticky-button position-fixed top-0 end-0 m-2">FR</a>
+        <a href="index.html" class="sticky-button position-fixed top-0 end-0 m-2" title="Passer en français">
+            🌐
+        </a>
+<!--        <a href="index.html" class="sticky-button position-fixed top-0 end-0 m-2">FR</a>-->
 
         <div>
             <h1>
